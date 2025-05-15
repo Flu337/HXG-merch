@@ -1,0 +1,31 @@
+.svg{
+    display: flex;
+    position: absolute;
+    width: 30%;
+    left: 80%;
+    top: 12%;
+}
+.svg_button1{
+    display: flex;
+    position: absolute;
+    left: 10%;
+
+}
+.svg_button2{
+    display: flex;
+    position: absolute;
+left: 18%;
+}
+.svg_button3{
+    display: flex;
+    position: absolute;
+    left: 26%;
+
+}
+
+.icon{
+    color: antiquewhite;
+    width: 10%;
+    height: 10%;
+}
+

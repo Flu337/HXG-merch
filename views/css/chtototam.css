@@ -1,0 +1,59 @@
+.footer {
+  text-align: center;
+  padding: 20px;
+  top: 200%;
+  left: 30%;
+  color: #fff;
+  font-size: 14px;
+  line-height: 1.6;
+  position: absolute;
+  z-index: 1;
+}
+
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+  position: relative; 
+}
+
+
+.tooltip {
+  position: absolute;
+  bottom: -30px; 
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #333;
+  color: #fff;
+  font-size: 12px;
+  padding: 5px 8px;
+  border-radius: 5px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, transform 0.3s ease;
+}
+
+
+.social-icons a:hover .tooltip {
+  opacity: 1;
+  visibility: visible;
+  transform: translate(-50%, -10px); 
+}
+
+.footer-links {
+  margin: 15px 0;
+}
+.umg-icon{
+  color: #fff;
+
+}
